@@ -24,9 +24,8 @@
     padding:40px 32px;max-width:380px;width:100%;text-align:center;
   }
   .login-card .mark{
-    width:52px;height:52px;border-radius:999px;background:var(--primary);color:var(--gold-soft);
-    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;margin:0 auto 16px;
-    font-family:'Catamaran',sans-serif;
+    width:64px;height:64px;border-radius:999px;margin:0 auto 16px;
+    object-fit:cover;border:2px solid var(--gold);display:block;
   }
   .login-card h1{font-size:19px;font-weight:700;margin-bottom:6px;}
   .login-card p{font-size:13.5px;color:var(--ink-soft);margin-bottom:20px;}
@@ -82,7 +81,7 @@
 
 <div id="loginScreen">
   <div class="login-card">
-    <div class="mark">ந</div>
+    <img class="mark" src="assets/logo-icon.png" alt="நற்பணி இயக்கம் logo" />
     <h1>Volunteer Admin</h1>
     <p>Enter your admin key to view volunteer sign-ups.</p>
     <input type="password" id="keyInput" placeholder="Admin key" />
